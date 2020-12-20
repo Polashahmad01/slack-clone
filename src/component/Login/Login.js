@@ -6,7 +6,7 @@ import { auth, provider } from '../firebase/firebase';
 import { useStateValue} from '../StateProvider/StateProvider';
 
 const Login = () => {
-    const [ dispatch ] = useStateValue();
+    const [ state, dispatch ] = useStateValue();
 
     const signIn = () => {
         auth

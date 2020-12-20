@@ -21,7 +21,23 @@
   margin-left: 2rem;
 }
 
-/* COMPONENT NUMBE: 5 */
 /* Moblie Version */
+@media (max-width: 767px) {
+  .message > img {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+  }
+  .message__info > h4 {
+    font-size: 10px;
+    font-weight: 400;
+  }
 
-/* Tablet Version */
+  .message__info > p {
+    font-size: 9px;
+  }
+
+  .message__timestamp {
+    font-size: 10px;
+  }
+}

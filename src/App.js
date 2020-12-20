@@ -9,7 +9,7 @@ import Login from './component/Login/Login';
 import { useStateValue } from './component/StateProvider/StateProvider';
 
 function App() {
-  const [{ user }] = useStateValue();
+  const [{ user }, dispatch ] = useStateValue();
 
   return (
     <div className="app">

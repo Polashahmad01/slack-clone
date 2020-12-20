@@ -35,7 +35,15 @@
   font-size: 16px;
 }
 
-/* COMPONENT NUMBE: 4 */
 /* Moblie Version */
+@media (max-width: 767px) {
+  .chat {
+    flex: 0.8;
+  }
+}
 
-/* Tablet Version */
+@media (max-width: 280px) {
+  .chat {
+    display: none;
+  }
+}

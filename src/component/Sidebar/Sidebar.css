@@ -58,7 +58,41 @@
   border: 1px solid #49274b;
 }
 
-/* COMPONENT NUMBE: 2 */
 /* Moblie Version */
+@media (max-width: 767px) {
+  .sidebar {
+    flex: 0.2;
+    height: 100vh;
+  }
+
+  .sidebar__info > h2 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .sidebar__info > h3 {
+    font-size: 13px;
+  }
+
+  .sidebar__header {
+    justify-content: space-between;
+  }
+
+  .sidebar__header > .MuiSvgIcon-root {
+    font-size: 15px;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 320px) {
+  .sidebar {
+    height: 106vh;
+  }
+}
 
 /* Tablet Version */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sidebar {
+    height: 100vh;
+  }
+}

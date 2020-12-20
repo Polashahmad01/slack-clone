@@ -30,7 +30,19 @@
   font-size: 14px;
 }
 
-/* COMPONENT NUMBE: 3 */
 /* Moblie Version */
+@media (max-width: 767px) {
+  .sidebarOption__icon {
+    font-size: 15px !important;
+  }
+
+  .sidebarOption__hash {
+    font-size: 15px;
+  }
+
+  .sidebarOption > h3 {
+    font-size: 10px;
+  }
+}
 
 /* Tablet Version */

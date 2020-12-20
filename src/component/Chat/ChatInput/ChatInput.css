@@ -21,3 +21,16 @@
 .chatInput > form > button {
   display: none;
 }
+
+/* Mobile Version */
+@media (max-width: 767px) {
+  .chatInput > form > input {
+    width: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .chatInput > form > input {
+    width: 30%;
+  }
+}

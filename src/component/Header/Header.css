@@ -71,7 +71,24 @@
   color: gray;
 }
 
-/* COMPONENT NUMBE: 1 */
 /* Moblie Version */
+@media (max-width: 767px) {
+  .header {
+    overflow-x: hidden;
+  }
+
+  .header__left > .MuiSvgIcon-root {
+    display: none;
+  }
+
+  .header__search {
+    display: none;
+  }
+}
 
 /* Tablet Version */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    overflow-x: hidden;
+  }
+}

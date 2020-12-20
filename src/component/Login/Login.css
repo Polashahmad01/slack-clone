@@ -36,7 +36,41 @@
   background-color: #333;
 }
 
-/* COMPONENT NUMBE: 6 */
 /* Moblie Version */
+@media (max-width: 767px) {
+  .login__container > img {
+    margin-bottom: 15px;
+  }
+
+  .login {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 280px) {
+  .login {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .login {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+}
 
 /* Tablet Version */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .login {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+}
