@@ -11,7 +11,8 @@ This is a full-stack slack-clone. I used a front end framework called React.js t
 7. React Context API,
 8. Full responsive on all deviece,
 9. CSS BEM Convension.
-10. Realtime Chat features
+10. Realtime Chat features,
+11.React-Router-Dom
 This site is live here: https://slack-clone-daba0.web.app
 
 If you want to use this codebase just clone this repo and run npm install first & then run npm start to start the dev environment
