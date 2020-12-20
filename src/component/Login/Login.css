@@ -1,0 +1,42 @@
+.login {
+  height: 100vh;
+  background-color: #f8f8f8;
+  display: grid;
+  place-items: center;
+}
+
+.login__container {
+  padding: 100px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12) 0 1px 2px rgba(0, 0, 0, 0.24) !important;
+}
+
+.login__container > img {
+  object-fit: contain;
+  height: 100px;
+  margin-bottom: 100px;
+}
+
+.login__container > p {
+  margin-top: -0.7rem;
+}
+
+.login__container > button {
+  margin-top: 15px;
+  text-transform: uppercase;
+  background-color: #0a8d48;
+  color: #fff;
+  padding: 0.6rem 1.5rem;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.login__container > button:hover {
+  background-color: #333;
+}
+
+/* COMPONENT NUMBE: 6 */
+/* Moblie Version */
+
+/* Tablet Version */
