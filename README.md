@@ -1,4 +1,4 @@
-#Slack-Clone
+# Slack-Clone
 
 This is a full-stack slack-clone. 
 I used a front end framework called React.js to build this project. T
